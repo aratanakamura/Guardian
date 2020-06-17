@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- lang="ja" -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardian</title>
+    <!-- title：適切に修正 -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="headerWidth">
+        <div class="titleWidth">
+            <div>
+                ＷＥＢ戦略、ＣＭＳ構築、ホームページ制作・効果アップなら東京のガーディアン
+            </div>
+            <img class="logo_img" src="img/logo.jpg" alt="Guardian INC." />
+            <!-- imgタグのalt属性は必ず設定＆適切な値にする -->
+        </div>
+        <div class="navigation">
+            <div class="navWidth">
+                <div class="nav1">ナビ１</div>
+                <div class="nav2">ナビ２</div>
+                <div class="nav3">ナビ３</div>
+                <div class="nav4">ナビ４</div>
+            </div>
+        </div>
+    </header>
+    <!-- 不要な改行は削除 -->
+    <main class="main">
+        <div class="margin"></div>
+        <div class="mainDivWidth">
+            <div class="mainColumn">
+                <div class="mainTitle">サービス</div>
+                <!-- mainHeaderは適切なクラス名に変更 -->
+                <div class="serviceContent">
+                    <div class="freelyZone">
+                        <img class="freelyImg" src="img/freely.jpg" alt="freelyイメージ画像" />
+                        <div class="freelyTitle">Freely</div>
+                        <div class="freelyExplanation">
+                            freelyとは、㈱ガーディアンが提供するＣＭＳ付ＷＥＢサイト構築、運営サービスです。
+                        </div>
+                    </div>
+
+                    <div class="DarwinZone">
+                        <img class="DarwinImg" src="img/darwin.jpg" alt="Darwinイメージ画像" />
+                        <div class="DarwinTitle">Darwin</div>
+                        <div class="DarwinExplanation">
+                            Darwinは株式会社ガーディアンが誇る最高級のＣＭＳ付ホームページ構築、運営サービスです。
+                        </div>
+                    </div>
+
+                    <div class="OWletZone">
+                        <img class="OWletImg" src="img/owlet.jpg" alt="OWletイメージ画像" />
+                        <div class="OWletTitle">OWlet</div>
+                        <div class="OWletExplanation">
+                            ４年で１０００サイト超のオーダーメイド＆スクラッチ構築を実現した魔法のようなコアテクノロジー
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainHeader">求める人物像</div>
+
+                <div class="desiredPersonContent">
+                    <ul class="desiredPersonContent_ul">
+                        <li class="worm_cool">
+                            『ウォーム・ハート』＆『クール・ヘッド』
+                        </li>
+                        <li>ミスを恐れないチャレンジ精神</li>
+                        <li>勇気をもって行動できる若者</li>
+                    </ul>
+                    <div class="Content_worm_cool">
+                        『ウォーム・ハート』＆『クール・ヘッド』
+                    </div>
+                    <hr />
+                    <div class="Business_principles">
+                        株式会社ガーディアンの経営原則です。
+                    </div>
+                    <div class="Alfred_Marshall">
+                        仕事におけるいかなる場合でも上の言葉を決して忘れないで下さい。<br />ガーディアンでは、温かい心情（Warm
+                        heart）と冷静さ頭脳（Cool head）をとても大事に考えています。<br />これは、ケンブリッジ大学の初代経済学教授Alfred
+                        Marshall教授の言葉を引用したものです。
+                    </div>
+                </div>
+
+                <div class="mainHeader">ＨＰを成功に導く３つのＷＥＢノウハウ</div>
+
+                <div class="serviceContent">
+                    <ul class="listStyleNone">
+                        <li>1.デザインをどう考えるか⁉</li>
+                        <li>2.コンテンツをどう考えるか⁉</li>
+                        <li>3.運営をどう考えるか⁉</li>
+                    </ul>
+                </div>
+
+                <!-- フォームは<form>タグを必ず用いる -->
+                <div class="mainTitle">フォーム</div>
+                <div>
+                    <div class="forms">
+                        <div class="formList">
+                            <div class="formList_name">名前</div>
+                            <form class="sp-nameForm">
+                                <input type="text" name="first-name" maxlength="10" value="" placeholder="" />
+                            </form>
+
+                            <div class="formList_name">年齢</div>
+                            <div class="sp-nameForm">
+                                <select name="pull-down">
+                                    <!-- valueの値は適切にする -->
+                                    <option value="10's">１０代</option>
+                                    <option value="20's">２０代</option>
+                                    <option value="30's">３０代</option>
+                                </select>
+                            </div>
+
+                            <div class="formList_name">性別</div>
+                            <form class="sp-nameForm">
+                                <input id="radio-a" type="radio" name="dinner" value="men" checked /><label
+                                    for="radio-a">男</label>
+                                <input id="radio-b" type="radio" name="dinner" value="women" /><label
+                                    for="radio-b">女</label>
+                            </form>
+
+                            <div class="formList_name">お問い合わせ項目</div>
+                            <form class="sp-nameForm">
+                                <input id="check-a" type="checkbox" name="List" value="Free consultation"
+                                    checked /><label for="check-a">無料相談</label>
+                                <input id="check-b" type="checkbox" name="List" value="Document request" /><label
+                                    for="check-b">資料請求</label>
+                            </form>
+
+                            <div class="formList_content">内容</div>
+                            <form class="sp-content_textarea">
+                                <textarea class="content_textarea_box" name="message-body" placeholder=""></textarea>
+                            </form>
+                        </div>
+                        <div class="inputForm">
+                            <form class="nameForm">
+                                <input type="text" name="first-name" maxlength="10" value="" placeholder="" />
+                            </form>
+
+                            <form class="nameForm">
+                                <select name="pull-down">
+                                    <option value="10's">１０代</option>
+                                    <option value="20's">２０代</option>
+                                    <option value="30's">３０代</option>
+                                </select>
+                            </form>
+
+                            <form class="nameForm">
+                                <input type="radio" name="sex" value="男" checked /><label for="radio-a">男</label>
+                                <input type="radio" name="sex" value="女" /><label for="radio-b">女</label>
+                            </form>
+
+                            <form class="nameForm">
+                                <input type="checkbox" name="hobby" value="無料相談" checked /><label
+                                    for="check-a">無料相談</label>
+                                <input type="checkbox" name="hobby" value="資料請求" /><label for="check-b">資料請求</label>
+                            </form>
+
+                            <form class="content_textarea">
+                                <textarea class="content_textarea_box2" name="message-body" placeholder=""></textarea>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- 送信する -->
+                    <form class="submitButton">
+                        <input type="submit" value="送信する" />
+                    </form>
+                </div>
+            </div>
+            <div class="sideColumn">
+                <img src="img/bannr.gif" alt="バナーの画像" />
+                <img src="img/bannr.gif" alt="バナーの画像" />
+                <img src="img/bannr.gif" alt="バナーの画像" />
+            </div>
+        </div>
+    </main>
+
+    <hr class="lastHr" />
+
+    <footer>
+        <div class="footer">
+            <img class="lastLogoImg" src="img/logo.jpg" alt="Guardian INC." />
+        </div>
+        <div class="copyright">
+            Copyright©２０１２－２０１５GUARDIAN.Inc.All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
